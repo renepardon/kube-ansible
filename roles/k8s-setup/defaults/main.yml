@@ -35,6 +35,7 @@ haproxy_stats_bind_address: 9090
 haproxy_stats_uri: "/haproxy_stats"
 haproxy_stats_user: "admin"
 haproxy_stats_password: "admin123"
+# TODO use ansible-vault or add this fail to .gitignore
 
 # kube-dns variables
 cluster_domain_name: cluster.local

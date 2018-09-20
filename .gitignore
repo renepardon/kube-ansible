@@ -4,6 +4,7 @@
 tmp
 tmp/*
 hosts
+inventory/group_vars/all.yml
 *.ovpn
 .keys/
 .venv/

@@ -9,7 +9,7 @@ container_runtime: docker
 # Container network,
 # Supported: calico, flannel.
 cni_enable: true
-container_network: calico
+container_network: flannel
 cni_iface: ""
 
 # Kubernetes HA extra variables.

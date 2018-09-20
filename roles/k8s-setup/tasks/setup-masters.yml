@@ -1,4 +1,6 @@
 ---
+- name: Ensure HAProxy is installed
+  package: name=haproxy state=present
 
 - name: Ensure HAProxy config directory exists
   file: path={{ haproxy_config_dir }} state=directory
